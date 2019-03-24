@@ -11,3 +11,5 @@ factors of the integer input.
 
 I didn't bother wrighting an actual prime factorization function because the point of this exercise was just to 
 do the kata for the test program.
+
+catch.hpp is required to run these files, but is not currently inlcuded int the repository, in the interest of saving space.
