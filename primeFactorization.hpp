@@ -3,6 +3,8 @@
 #include <vector>
 using std::vector;
 
-vector<int> primeFactorization(vector<int>& factors, int myint);
+vector<int> primeFactorization(int myint);
+
+bool isprime(int n);
 
 #endif // !primefactorization_hpp
