@@ -1,3 +1,8 @@
+//primeFactorization.cpp
+//cs372 spring 2019
+//homework 2
+//By Jonathan Aarhus
+//Function source file for prime factorization tdd kata
 #include "primeFactorization.hpp"
 
 vector<int> primeFactorization(int myint) {

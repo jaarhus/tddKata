@@ -1,3 +1,8 @@
+//primFactorsTest.cpp
+//cs372 spring 2019
+//homework 2
+//By Jonathan Aarhus
+//Test file for prime factorization tdd kata
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 #include "primeFactorization.hpp"
@@ -32,5 +37,8 @@ TEST_CASE("Prime Factorization Test") {
 	}
 	SECTION("Ten:") {
 		REQUIRE(primeFactorization(10) == vector<int>{2, 5});
+	}
+	SECTION("One Thousand:") {
+		REQUIRE(primeFactorization(1000) == vector<int>{2, 2, 2, 5, 5, 5});
 	}
 }
